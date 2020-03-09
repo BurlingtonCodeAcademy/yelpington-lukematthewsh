@@ -89,30 +89,3 @@ async function getBarInfo() {
     barPhone.textContent = barInfo.phone
     placeMarker(barInfo.address)
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-commentForm.addEventListener('submit, (event) =>{
-    let commentArray = myStorage.getItem('comments) || []
-    commentArray.push({name : event.target.body.name, comment: event.target.body.comment})
-
-    myStorage.getItem('comments') ? myStorage.removeItem
-    myStorage.getItem('comments') , commentArray);
-    commentArray.forEach(comment) => {
-        document.getElementById('commentDisplay').innerHTML += `<p>${comment.name}:</p> <p>comment.comment</p>`
-    })
-})
-
-*/

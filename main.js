@@ -5,38 +5,6 @@ L.tileLayer('https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png', {
 
 }).addTo(myMap)
 
-let barArray = [
-    "what-ales-you",
-    "ESOX",
-    "gryphon",
-    "jps-pub",
-    "radio-bean",
-    "red-square",
-    "ri-ra-irish-pub",
-    "ruben-james",
-    "rasputins",
-    "three-needs",
-    "the-whiskey-room"]
-let restArray = [
-    "Ahli",
-    "American",
-    "August",
-    "City",
-    "Cortijo",
-    "Farmhouse",
-    "Gaku",
-    "Hen",
-    "Henrys",
-    "Honey",
-    "Kountry",
-    "Leunigs",
-    "Mikes",
-    "Pascolo",
-    "Single",
-    "Thai"
-
-]
-
 function placeMarker(address, name, id) {
     fetch(`https://nominatim.openstreetmap.org/search/?q=${address}&format=json`)
         .then((data) => {
