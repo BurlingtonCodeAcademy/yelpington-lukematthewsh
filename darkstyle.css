@@ -20,7 +20,7 @@ body{
     grid-template-rows: auto;
     grid-template-areas: 
     "header header header header header"
-    "restlist restlist map map map "
+    "restlist map map map map "
     "footer footer footer footer footer"
 }
 li{
@@ -55,6 +55,7 @@ li:hover{
         font-size: 30px !important;
     }
     li{
+        max-height:8vh;
         font-size:10px;
     }
     #name{

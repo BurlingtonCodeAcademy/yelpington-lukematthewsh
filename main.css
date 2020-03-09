@@ -45,6 +45,9 @@ li:hover{
     #yelp{
         font-size: 50px !important;
     }
+    #bars{
+        font-size: 15px !important;
+    }
     li{
         font-size:15px;
     }
@@ -54,6 +57,7 @@ li:hover{
         font-size: 30px !important;
     }
     li{
+        max-height:10vh;
         font-size:10px;
     }
     #name{
@@ -115,10 +119,9 @@ li:hover{
 
 
 #rest-info{
-    
     grid-area: restinfo;
     border-radius: 5%;
-    min-height: 60vh;
+    min-height: 50vh;
     padding: 3px;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
@@ -216,7 +219,7 @@ li:hover{
         border-radius: 5%;
     }
     #rest-info{
-        height:auto !important;
+        max-height: auto!important;
     }
     #homePage{
         display: grid;
