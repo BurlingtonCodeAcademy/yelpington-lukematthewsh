@@ -159,9 +159,18 @@ li:hover{
     grid-template-rows: auto;
     grid-template-areas: 
     ". footerCaption footerCaption ."
-    ". . home insta"
-    "textbox textbox phone facebook"
-    "textbox textbox email linkedin";
+    ". . logoCont logoCont"
+    "textbox textbox logoCont logoCont"
+    "textbox textbox logoCont logoCont";
+}
+#logoCont{
+grid-area: logoCont;
+display: grid;
+grid-template-columns: auto;
+grid-template-rows: auto ;
+grid-template-areas: 
+"insta facebook linkedin"
+"home phone email"
 }
 #footerCaption{
     font-weight: 800;
@@ -282,69 +291,68 @@ li:hover{
   }
   #insta-logo{
     color: black;
-    text-align: center;
     display: flex;
     align-items: center;
-    align-self: flex-end;
+    align-self: center;
     flex-direction: column;
     grid-area: insta;
     height: auto;
     width: auto;
-    margin: 10px;
+   
   }
   #facebook-logo{
       color: black;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    align-self: center;
+      display: flex;
+      align-items: center;
+      align-self: center;
+      flex-direction: column;
     grid-area: facebook;
     height: auto;
     width: auto;
-    margin: 10px;
+   
   }
   #linkedin-logo{
       color: black;
-    display: flex;
-    align-items: center;
-    align-self: center;
-    flex-direction: column;
+      display: flex;
+      align-items: center;
+      align-self: center;
+      flex-direction: column;
     grid-area: linkedin;
     height: auto;
     width: auto;
-   margin: 10px;
+  
   }
 
   #email-logo{
     color: black;
-  display: flex;
-  align-items: center;
-  align-self: center;
-  flex-direction: column;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
   grid-area: email;
   height: auto;
   width: auto;
- margin: 10px;
+
 }
 #phone-logo{
     color: black;
-  display: flex;
-  align-items: center;
-  align-self: center;
-  flex-direction: column;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
   grid-area: phone;
   height: auto;
   width: auto;
- margin: 10px;
+
 }
 #home-logo{
     color: black;
-  display: flex;
-  align-items: center;
-  align-self: center;
-  flex-direction: column;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
   grid-area: home;
   height: auto;
   width: auto;
- margin: 10px;
+ 
 }
