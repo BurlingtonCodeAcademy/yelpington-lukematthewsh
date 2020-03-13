@@ -1,0 +1,13 @@
+{
+    "id": "three-needs",
+    "name": "Three Needs",
+    "address": "185 Pearl St Burlington, VT 05401",
+    "phone": "(802)497-0119",
+    "website": "https://www.threeneeds.net/",
+    "hours": "4pm - 2am",
+    "notes": [
+        "Cool local spot Nice selection of beers, good music, friendly staff.",
+        "Place is kind of awesome but has too many fish sandwiches and white people",
+        "Good beer choices great atmosphere great service!"
+    ]
+}
